@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <vs7 translate="label">
+            <label>VS7 Modules</label>
+            <sort_order>100000</sort_order>
+        </vs7>
+    </tabs>
+    <sections>
+        <vs7_saleattribute translate="label" module="vs7_saleattribute">
+            <label>Sale Attribute</label>
+            <tab>vs7</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>300</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>15</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <categories_limits translate="label comment">
+                            <label>Don not show Sale Attribute in categories</label>
+                            <comment>List comma-separated IDs like: 12,328,5</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </categories_limits>
+                    </fields>
+                </general>
+            </groups>
+        </vs7_saleattribute>
+    </sections>
+</config>
